@@ -1,12 +1,250 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mateo Arcila Portafolio</title>
     <link rel="stylesheet" href="/Styles/styles.css">
 </head>
+
 <body>
-    <h1>Hi there 👋🏻</h1>
+
+    <!-- Creando el header donde estará la barra de navegación del proyecto -->
+
+    <header class="header">
+
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h2>Mateo Arcila </h2>
+            </div>
+            <ul class="nav-menu">
+
+                <li class="nav-item">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#sobre-mi" class="nav-link">Sobre mí</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#portafolio" class="nav-link">Portafolio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Fin del Header -->
+
+    <!-- Inicio de la sección del HERO del portafolio -->
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title"> Hola, soy <span class="highlight">Mateo arcila</span></h1>
+                <h2 class="hero-subtitle">
+                    <p class="hero-description">
+                        Soy estudiante de programación y este es mi portafolio. Aquí encontrarás algunos de mis trabajos
+                        y proyectos más recientes.
+                    </p>
+                    <a href="" class="btn-primary"> Ver mi trabajo </a>
+            </div>
+
+            <div class="hero-image">
+                <img src="" alt="Foto de perfil" class="profile-img">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- fin del HERO del portafolio -->
+
+    <!-- Inicio de la sesion de sobre mi -->
+
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <div class="about-content">
+                    <div class="about-text">
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="skills">
+                        <h3></h3>
+                        <ul class="skills-list">
+                            <li class="skill-item"> HTML5</li>
+                            <li class="skill-item">CSS3</li>
+                            <li class="skill-item">JavaScript</li>
+                            <li class="skill-item">React</li>
+                            <li class="skill-item">Java</li>
+                            <li class="skill-item">Git y Github</li>
+                            <li class="skill-item"> Ingles (b2) </li>
+                        </ul>
+                    </div>
+                </div>
+            </h2>
+        </div>
+    </section>
+
+    <!-- Fin de la sesion de sobre mi -->
+
+
+    <!-- Inicio de galeria de proyectos -->
+
+    <section id="portafolio" class="portafolio">
+        <div class="container">
+            <h2 class="section-title"></h2>
+
+            <div class="portfolio-grid">
+
+                <!-- Proyecto Uno -->
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="" alt="">
+                        <span class="project-overlay">
+                            <h3></h3>
+                            <p></p>
+                            <a href="" class="project-link"></a>
+                        </span>
+                        </img>
+                    </div>
+                </article>
+
+                <!-- Proyecto Dos -->
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="" alt="">
+                        <span class="project-overlay">
+                            <h3></h3>
+                            <p></p>
+                            <a href="" class="project-link"></a>
+                        </span>
+                        </img>
+                    </div>
+                </article>
+
+                <!-- Proyecto Tres -->
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="" alt="">
+                        <span class="project-overlay">
+                            <h3></h3>
+                            <p></p>
+                            <a href="" class="project-link"></a>
+                        </span>
+                        </img>
+                    </div>
+                </article>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Fin de galeria de proyectos -->
+
+    <!-- Inicio de la sección de contacto -->
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title"></h2>
+
+            <div class="contact-content">
+
+                <!-- Call to action -->
+
+                <div class="contact-info">
+                    <h3>Hablemos</h3>
+                    <p> tienes algo en mente? pues te escucho.</p>
+
+                    <!-- Email -->
+
+                    <div class="contact-details">
+                        <contact-item>
+                            <span class="contact-icon"></span>
+                            <span></span>
+                        </contact-item>
+                    </div>
+
+                    <!-- Numero telefonico -->
+
+                    <div class="contact-details">
+                        <contact-item>
+                            <span class="contact-icon"></span>
+                            <span></span>
+                        </contact-item>
+                    </div>
+
+                </div>
+
+                <!-- Formulario -->
+
+                <form action="" class="contact-form">
+
+                    <!-- full name -->
+
+                    <div class="form-group">
+                        <label for="nombre"> Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+
+                    <!-- email -->
+
+                    <div class="form-group">
+                        <label for="email"> Correo electronico</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <!-- Subject -->
+
+                    <div class="form-group">
+                        <label for="subjet"> Asunto del correo </label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+
+                    <!-- Mensaje -->
+
+                    <div class="form-group">
+                        <label for="mensaje"> Mensaje </label>
+                        <textarea name="" id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+
+                    <!-- Boton de enviar -->
+
+                    <button type="submit" class="btn-primary">"Enviar mensaje"</button>
+
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Fin de la sección de contacto -->
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Mateo Arcila. Todos los derechos reservados</p>
+            <div class="social-links">
+                <a href="" class="social-link"> LinkedIn </a>
+                <a href="" class="social-link"> GitHub </a>
+                <a href="" class="social-link"> Twitter (x) </a>
+            </div>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>
